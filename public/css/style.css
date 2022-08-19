@@ -29,7 +29,7 @@ nav ul{
     width: 10vw;
     height: 3.5vw;
     margin-left: 7vw;
-    background: url('/assets/logo_cropped.jpg') no-repeat;
+    background: url('/assets/logo_cropped.png') no-repeat;
 }
 
 nav a{
@@ -69,7 +69,7 @@ nav .login{
     height: 40vw;
     width: 40vw;
     padding-right: 5vw;
-    background: url('/assets/home.svg') no-repeat;
+    background: url('/assets/home.png') no-repeat;
 }
 
 .about-main{
@@ -102,7 +102,7 @@ nav .login{
     width: 32vw;
     padding-top: 5vw;
     padding-right: 5vw;
-    background: url('/assets/about.svg') no-repeat;
+    background: url('/assets/about.png') no-repeat;
 }
 
 .posts{
@@ -364,7 +364,6 @@ nav .login{
     background-position: center;
     background-size: cover;
 }
-
 
 
 
