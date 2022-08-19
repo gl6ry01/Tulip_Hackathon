@@ -1,0 +1,378 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: #621708;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+nav{
+    width: 100vw;
+    height: 4.5vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #f6aa1c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    margin-right: 13vw;
+    margin-top: 1vw;
+}
+
+.logo{
+    width: 10vw;
+    height: 3.5vw;
+    margin-left: 7vw;
+    background: url('/assets/logo_cropped.jpg') no-repeat;
+}
+
+nav a{
+    padding: 0.6vw 1vw;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-weight: 600;
+}
+
+nav .login{
+    background-color: #621708;
+    color: white;
+    border-radius: 0.5vw;
+    padding: 0.6vw 1vw;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vw;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heading h1{
+    color: white;
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+.illus{
+    height: 40vw;
+    width: 40vw;
+    padding-right: 5vw;
+    background: url('/assets/home.svg') no-repeat;
+}
+
+.about-main{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6vw;
+}
+
+.about-main h1{
+    color: white;
+    font-size: 7vw;
+    font-weight: bold;
+}
+
+.about-heading{
+    display: flex;
+    flex-direction: column;
+    padding-top: 4vw;
+}
+
+.about-heading p{
+    width: 35vw;
+    color: white;
+    margin-top: -4vw;
+    font-weight: 400;
+}
+
+.illus2{
+    height: 32vw;
+    width: 32vw;
+    padding-top: 5vw;
+    padding-right: 5vw;
+    background: url('/assets/about.svg') no-repeat;
+}
+
+.posts{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6vw;
+}
+
+.card{
+    width: 28vw;
+    height: 35vw;
+    background-color: white;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vw; 
+}
+
+.upper{
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upper .info{
+    display: flex;
+    align-items: center;
+}
+
+.info .username{
+    padding-left: 0.5vw;
+}
+
+.upper .pfp{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-image: url('https://github.com/gigabite-pro.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.lower{
+    height: 25vw;
+    background-image: url('https://github.com/gl6ry01.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.caption{
+    padding: 1vw;
+}
+
+.fa-heart{
+    font-size: 1.5vw;
+    padding-right: 1vw;
+}
+
+.like span{
+    font-size: 1.2vw;
+}
+
+.like{
+    text-decoration: none;
+    color: black;
+}
+
+.verify{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.verify-head{
+    color: white;
+}
+
+.verify-box{
+    width: 30vw;
+    height: 30vh;
+    background-color: #f6aa1c;
+    border-radius: 10px;
+    padding: 2vw;
+}
+
+.post-btn{
+    background-color: #621708;
+    color: white;
+}
+
+.profile{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-head{
+    padding-top: 6vw;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.profile-head h1{
+    font-weight: 700;
+}
+
+.info-box{
+    width: 30vw;
+    height: 15vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.info-box .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.3vw;
+}
+
+.info-box .pfp{
+    height: 8vw;
+    width: 8vw;
+    border-radius: 50%;
+    background-image: url('https://github.com/gigabite-pro.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.info-box .username{
+    text-align: center;
+}
+
+.info-box .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1.5vw;
+}
+
+.add-post{
+    padding-top: 2vw;
+}
+
+.add-btn{
+    padding: 1vw;
+    background-color: #f6aa1c;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+}
+
+.add-btn:hover{
+    color: white;
+}
+
+.profile-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1vw;
+}
+
+.profile-posts h1{
+    font-size: 2vw;
+    color: white;
+}
+
+.main-posts{
+    width: 63vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.profile-post{
+    width: 18vw;
+    height: 22vw;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tulipsocials-5f038.appspot.com/o/Sat%20Jul%2016%202022%2020%3A10%3A27%20GMT%2B0530%20(India%20Standard%20Time)-Coding%20Bootcamp.png?alt=media&token=9c1a7584-52ba-4c6f-8d06-f2e2504116c4');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 3vw;
+    margin-right: 1.5vw;
+    margin-left: 1.5vw;
+}
+
+.notif-head{
+    padding-top: 4vw;
+    display: flex;
+    justify-content: center;
+}
+
+.notif-head h1{
+    font-size: 3vw;
+    font-weight: bold;
+    color: white;
+}
+
+.notifs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.notif-card{
+    width: 25vw;
+    height: 5vw;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5vw;
+}
+
+.notif-card .left{
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.notif-card .pfp{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-image: url('https://github.com/gigabite-pro.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.notif-card .username{
+    padding-left: 0.5vw;
+}
+
+.notif-card .right{
+    padding-right: 2vw;
+    padding-top: 0.3vw;
+}
+
+.liked-img{
+    width: 3vw;
+    height: 4vw;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/tulipsocials-5f038.appspot.com/o/Sat%20Jul%2016%202022%2020%3A10%3A27%20GMT%2B0530%20(India%20Standard%20Time)-Coding%20Bootcamp.png?alt=media&token=9c1a7584-52ba-4c6f-8d06-f2e2504116c4');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
